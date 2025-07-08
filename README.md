@@ -121,9 +121,9 @@ Descriptive plots:
 
 ## ✍️ Authors
 
-Jessica Miranda - Federal University of Rio Grande do Sul (UFRGS), Brazil
-Sisi Wang - UCS/Harvard CGA
-Rafael Albuquerque - UFRGS/Harvard CGA
+- Jessica Miranda - Federal University of Rio Grande do Sul (UFRGS), Brazil
+- Sisi Wang - UCS/Harvard CGA
+- Rafael Albuquerque - UFRGS/Harvard CGA
 
 ---
 
