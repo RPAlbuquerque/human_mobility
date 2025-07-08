@@ -62,6 +62,15 @@ This repository contains a high-performance geospatial pipeline to process and a
 
 ## 🧪 Statistical Diagnostics
 
+#📈 Descriptive Summary
+Our dataset encompasses 436,868 census tracts across Brazil, each enriched with detailed mobility and sociodemographic attributes. This extensive coverage allows for a granular examination of urban dynamics, with São Paulo (SP) emerging as the most represented state (n = 102,062), consistent with its demographic and economic prominence.
+
+In terms of gender, the sample reveals a slight skew toward female-dominated tracts, with 52.2% of visits attributed to women. Age distribution is centered on young adults, particularly those in the 25–29 age group, followed by 30–34 and 20–24, reflecting mobility patterns typical of the economically active and digitally connected population. Regarding social class, high-income areas (Class A) are the most prevalent, yet lower-income tracts remain well represented, ensuring sufficient heterogeneity for downstream stratified analyses.
+
+To examine the spatial structure of mobility behaviors, we conducted global spatial autocorrelation diagnostics using Moran’s I for three key variables: total visits, unique visitors, and average dwell time. All metrics exhibit statistically significant positive spatial autocorrelation (p < 0.001), with Moran’s I values of 0.503 for total visits, 0.557 for unique visitors, and 0.271 for dwell time. These results indicate strong spatial clustering of mobility patterns—especially for volume-based measures—underscoring the importance of applying spatial econometric techniques in subsequent analyses.
+
+Overall, the sample exhibits robust variation across geographic, demographic, and behavioral dimensions, while also showing significant spatial dependencies. These characteristics provide a solid empirical foundation for testing our hypotheses concerning mobility, digital sentiment, and sales performance in urban environments.
+
 Moran’s I for spatial autocorrelation:
 
 | Metric           | Moran’s I | p-value | z-score |
@@ -110,9 +119,11 @@ Descriptive plots:
 
 ---
 
-## 🧾 Citation
+## ✍️ Authors
 
-If you use this code, cite the forthcoming paper above or get in touch via the research group.
+Jessica Miranda - Federal University of Rio Grande do Sul (UFRGS), Brazil
+Sisi Wang - UCS/Harvard CGA
+Rafael Albuquerque - UFRGS/Harvard CGA
 
 ---
 
